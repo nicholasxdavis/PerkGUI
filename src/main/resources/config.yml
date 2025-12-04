@@ -1,0 +1,92 @@
+# PerkShop Configuration
+
+# Shop Settings
+shop:
+  title: "&8Perk Shop"
+  size: 9  # 1 row only
+  show-price-in-lore: true  # Show price in item lore
+  show-level-in-lore: true   # Show level requirement in item lore
+
+# Perks Configuration
+perks:
+  heal:
+    name: "&6Heal"
+    material: "GOLDEN_APPLE"
+    description:
+      - "&7Heal yourself with /heal"
+      - "&7Cooldown: &6{cooldown} &7seconds"
+    cost: 75000.0  # Significantly increased
+    required-level: 30  # Level required to purchase
+    permission: "perkshop.heal"
+    cooldown: 300  # 5 minutes in seconds
+    enabled: true
+    
+  feed:
+    name: "&6Feed"
+    material: "COOKED_BEEF"
+    description:
+      - "&7Feed yourself with /feed"
+      - "&7Cooldown: &6{cooldown} &7seconds"
+    cost: 50000.0  # Significantly increased
+    required-level: 25  # Level required to purchase
+    permission: "perkshop.feed"
+    cooldown: 180  # 3 minutes in seconds
+    enabled: true
+    
+  night:
+    name: "&6Night"
+    material: "CLOCK"
+    description:
+      - "&7Set time to night with /nv or /nightvision"
+      - "&7Cooldown: &6{cooldown} &7seconds"
+    cost: 60000.0  # Significantly increased
+    required-level: 35  # Level required to purchase
+    permission: "perkshop.night"
+    cooldown: 600  # 10 minutes in seconds
+    enabled: true
+    
+  repair:
+    name: "&6Repair"
+    material: "ANVIL"
+    description:
+      - "&7Repair items in hand with /repair"
+      - "&7Cooldown: &6{cooldown} &7seconds"
+    cost: 100000.0  # Significantly increased
+    required-level: 40  # Level required to purchase
+    permission: "perkshop.repair"
+    cooldown: 300  # 5 minutes in seconds
+    enabled: true
+
+# Quests Configuration
+quests:
+  enabled: true
+  rewards:
+    # Example quest rewards (balanced)
+    - type: kill_mobs
+      target: 100
+      reward: 2500.0  # Balanced
+      description: "Kill 100 mobs to earn $2,500"
+    - type: mine_blocks
+      target: 500
+      reward: 1500.0  # Balanced
+      description: "Mine 500 blocks to earn $1,500"
+
+# Messages
+messages:
+  prefix: "&ePandora"
+  purchased: "{prefix} &7You purchased &6{perk} &7for &6{cost}&7!"
+  already-purchased: "{prefix} &7You already own this perk!"
+  insufficient-funds: "{prefix} &7You don't have enough money! You need &6{cost}&7."
+  perk-not-found: "{prefix} &7Perk not found!"
+  cooldown-active: "{prefix} &7This perk is on cooldown! Wait &6{time} &7seconds."
+  perk-not-purchased: "{prefix} &7You haven't purchased this perk yet! Buy it in &6/shop&7"
+  healed: "{prefix} &7You have been healed!"
+  fed: "{prefix} &7You have been fed!"
+  time-set: "{prefix} &7Time set to night!"
+  item-repaired: "{prefix} &7Your item has been repaired!"
+
+
+
+
+
+

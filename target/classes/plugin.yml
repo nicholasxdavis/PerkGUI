@@ -1,0 +1,39 @@
+name: PerkShop
+version: 1.0.0
+main: com.playpandora.perkshop.PerkShop
+api-version: 1.21
+author: PlayPandora
+description: Shop system for purchasing perks and abilities
+
+commands:
+  shop:
+    description: Opens the perk shop GUI
+    usage: /<command>
+    aliases: [perkshop]
+  perks:
+    description: Shows your purchased perks
+    usage: /<command>
+  heal:
+    description: Heal yourself (requires perk)
+    usage: /<command>
+  feed:
+    description: Feed yourself (requires perk)
+    usage: /<command>
+  nv:
+    description: Set time to night (requires perk). Use /nv or /nightvision
+    usage: /<command>
+    aliases: [nightvision]
+  repair:
+    description: Repair items in hand (requires perk)
+    usage: /<command>
+
+depend: [Vault]
+softdepend: [Essentials, LevelPlugin]
+
+
+
+
+
+
+
+

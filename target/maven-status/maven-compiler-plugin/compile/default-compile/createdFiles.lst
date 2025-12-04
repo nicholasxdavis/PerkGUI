@@ -1,0 +1,17 @@
+com\playpandora\perkshop\listeners\RewardListener.class
+com\playpandora\perkshop\commands\RepairCommand.class
+com\playpandora\perkshop\commands\ShopCommand.class
+com\playpandora\perkshop\managers\PurchaseManager.class
+com\playpandora\perkshop\PerkShop.class
+com\playpandora\perkshop\listeners\RespawnListener.class
+com\playpandora\perkshop\models\Perk.class
+com\playpandora\perkshop\commands\NightCommand.class
+com\playpandora\perkshop\managers\PerkManager.class
+com\playpandora\perkshop\commands\HealCommand.class
+com\playpandora\perkshop\listeners\PlayerListener.class
+com\playpandora\perkshop\gui\ShopGUI.class
+com\playpandora\perkshop\commands\PerksCommand.class
+com\playpandora\perkshop\managers\RewardManager.class
+com\playpandora\perkshop\managers\QuestManager.class
+com\playpandora\perkshop\commands\FeedCommand.class
+com\playpandora\perkshop\storage\DataManager.class
