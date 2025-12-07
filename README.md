@@ -4,7 +4,7 @@
 
 PerkShop 1.0.0
 
-Private Release by PandoraPlugins by Blacnova
+PandoraPlugins by Blacnova
 
 <br />
 
